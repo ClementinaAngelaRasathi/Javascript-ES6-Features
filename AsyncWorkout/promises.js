@@ -90,5 +90,5 @@ function promiseFn(num) {
 
 
 promiseFn(11)
-.then(res => console.log(res))
-.catch(err=> console.log(err.data.message))
+.then(response => console.log(response))
+.catch(error=> console.log(error))
