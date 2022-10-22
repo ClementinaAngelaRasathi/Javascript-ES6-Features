@@ -13,7 +13,37 @@ const names = [`Raji`, `Amirtha`, `Clemc`, `Amuthesh`];
 // names.map( (name)  => {console.log(name)} )
 
 
-names.map(
-    (i)=>{ console.log(i) }
+// names.map(
+//     (name)=>{ console.log(name) }
+// )
 
-)
+
+const studentDetails = [
+{
+    "name": "Raji",
+    "Class": "12th",
+    "Section": "C"
+    
+},
+{
+    "name": "Amirtha",
+    "Class": "8th",
+    "Section": "A"
+    
+},
+{
+    "name": "Clemc",
+    "Class": "4th",
+    "Section": "C"
+    
+},
+{
+    "name": "Amuthesh",
+    "Class": "LKG",
+    "Section": "D"
+    
+}
+];
+
+
+studentDetails.map( student => (console.log(student.Section)) )
