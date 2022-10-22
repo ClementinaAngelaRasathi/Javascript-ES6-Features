@@ -10,7 +10,8 @@ function sentOtp() {
 async function verifyotp() {
     let promise = await sentOtp();
     console.log(promise); 
+    // console.log(sentOtp());
     console.log(`otp verified`);
 }
 
-verifyotp(sentOtp);
+verifyotp();

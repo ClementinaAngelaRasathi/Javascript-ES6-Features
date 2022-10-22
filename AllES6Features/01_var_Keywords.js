@@ -2,6 +2,7 @@
 
 
 function printNums(){
+
     console.log(`loop starts here`);
     for (var i = 0; i < 5; i++) {
         console.log(i);
@@ -15,5 +16,6 @@ function printNums(){
 
 }
 
+console.log(i);
 
 printNums();

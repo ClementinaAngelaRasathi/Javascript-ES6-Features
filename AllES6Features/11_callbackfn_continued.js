@@ -14,6 +14,6 @@ const delayingThePrint = (seconds) => {
 
 }
 
-
+delayingThePrint(7);
 
 delayingThePrint(5);

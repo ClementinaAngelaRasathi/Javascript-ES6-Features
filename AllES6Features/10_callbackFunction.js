@@ -25,6 +25,10 @@ const end = () => {
 
 // calling start function and passing end function as an argument 
 start(end);
+// end();
+
+
+
 
 
 
