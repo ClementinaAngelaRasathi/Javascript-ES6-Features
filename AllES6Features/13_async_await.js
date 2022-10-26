@@ -15,3 +15,5 @@ async function verifyotp() {
 }
 
 verifyotp();
+
+// sentOtp();

@@ -1,5 +1,6 @@
 This project is to understand and get some basic knowledge in ECMAScript 6 or ES6.
 
+All topics are in AllES6Features Folder 
 
 
 Resources:

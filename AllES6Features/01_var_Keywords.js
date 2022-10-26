@@ -16,6 +16,6 @@ function printNums(){
 
 }
 
-console.log(i);
+// console.log(i);
 
 printNums();

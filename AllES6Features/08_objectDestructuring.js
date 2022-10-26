@@ -1,11 +1,10 @@
 const student1 = {
-
-    sname:'amutheswaran',
+    sname:`amutheswaran`,
     age:23,
-    hobby:'teaching',
-    country:'india'
-
+    hobby:`teaching`,
+    country:`india`
 }
+console.log(student1);
 
 // older approach to extract all the student details
 
@@ -15,13 +14,15 @@ const student1 = {
 // const country = student1.country;
 
 
+
 // console.log(sname, age, hobby, country);
 
 
 // ES6 approach
 
-const { sname, age, hobby, country } = student1;
-console.log(sname, age, hobby, country);
+const { sname:student_name, age, hobby, country } = student1;
+
+console.log(student_name , age, hobby, country);
 
 // to extract only sname
 // const {sname} = student1;

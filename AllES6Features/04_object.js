@@ -3,7 +3,7 @@
 
 const student = {
     name: `ammu`,
-    class: `8th`,
+    class: 8,
     section: `C`
 }
 
@@ -12,11 +12,11 @@ const student = {
 // how to access members of an object?
 
 // using . notation
-student.name
+// student.name
 console.log(student.name);
 
 // using [] notaion
-student['name']
+// student['name']
 console.log(student['name']);
 
 

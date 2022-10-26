@@ -1,5 +1,6 @@
 const first = [1, 2, 3];
 const second = [4, 5, 6];
+// const dupsecond = [4, 5, 6];
 
 //Older approach
 const combined = first.concat(second);
@@ -23,6 +24,6 @@ const obj1 = {name: `ammu`};
 const obj2 = {age: 23};
 
 //combing the above 2 objects and adding a new element
-const combinedobj = {...obj1, ...obj2, location: `India`};
-console.log(combinedobj);
+// const combinedobj = {...obj1, ...obj2, location: `India`};
+// console.log(combinedobj);
 
