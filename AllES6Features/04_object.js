@@ -27,6 +27,9 @@ console.log(student['name']);
 console.log(student);
 
 
+//Key Not presented in the object
+student['school'] = 'KV'
+console.log(student);
 // const study = student.study.bind(student);
 // study();
 
