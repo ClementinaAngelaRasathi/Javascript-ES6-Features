@@ -1,7 +1,7 @@
-<h1>Javascript ES6</h1>
-This project is to understand and get some basic knowledge in ECMAScript 6 or ES6.
+# Javascript ES6
+This Repository is to understand and get some good knowledge in ECMAScript 6 or ES6.
 
-All topics are in All ES6 Features Folder 
+All topics are in All [ES6 Features](https://github.com/AmuthesWaran/Javascript-ES6-Features/tree/master/AllES6Features) Folder 
 
 
 Resources: <br/>
