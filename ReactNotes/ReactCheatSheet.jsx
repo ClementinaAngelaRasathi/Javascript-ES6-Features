@@ -14,8 +14,7 @@ const api = axios.create({
 //To get all the record
 const getRequest = () => {
     api.get(`/`).then(res => {
-        //  console.log(res.status);
-        //  console.log(res.data[1]);
+       
         setEmployees((res) => res.data)
     })
 }
